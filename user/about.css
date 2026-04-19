@@ -1,0 +1,153 @@
+.about-section{
+padding:100px 0;
+background:#ffffff;
+}
+
+.container{
+width:85%;
+margin:auto;
+}
+
+.about-sub{
+color:#ff6b81;
+letter-spacing:4px;
+font-size:14px;
+font-weight:700;
+}
+
+.about-title{
+font-size:44px;
+font-weight:800;
+color:#1c1b4a;
+margin:15px 0;
+line-height:1.3;
+}
+
+.pink{
+color:#ff6b81;
+}
+
+.about-text{
+color:#6b6b84;
+font-size:16px;
+line-height:1.8;
+max-width:650px;
+margin-bottom:40px;
+}
+
+/* FEATURES */
+
+.about-features{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:25px;
+margin-bottom:40px;
+}
+
+.feature{
+display:flex;
+align-items:center;
+font-weight:600;
+font-size:17px;
+color:#1c1b4a;
+}
+
+.feature i{
+width:40px;
+height:40px;
+background:#a06df5;
+color:#fff;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+margin-right:15px;
+font-size:14px;
+}
+
+/* BUTTON */
+
+.discover-btn{
+display:inline-block;
+background:#ff6b81;
+color:#fff;
+padding:14px 34px;
+border-radius:12px;
+text-decoration:none;
+font-weight:600;
+font-size:16px;
+transition:0.3s;
+}
+
+.discover-btn:hover{
+background:#1c1b4a;
+}
+
+.discover-btn i{
+margin-left:8px;
+}
+/* FORCE ABOUT STYLE */
+
+.about-features{
+display:grid !important;
+grid-template-columns:1fr 1fr !important;
+gap:25px !important;
+margin-top:30px !important;
+}
+
+.feature{
+display:flex !important;
+align-items:center !important;
+font-weight:600 !important;
+font-size:17px !important;
+color:#1c1b4a !important;
+}
+
+.feature i{
+width:42px !important;
+height:42px !important;
+background:#a066f5 !important;
+color:#ffffff !important;
+border-radius:50% !important;
+display:flex !important;
+align-items:center !important;
+justify-content:center !important;
+margin-right:15px !important;
+font-size:14px !important;
+}
+
+.about-sub{
+color:#ff6b81 !important;
+letter-spacing:4px !important;
+font-size:14px !important;
+font-weight:700 !important;
+}
+
+.about-title{
+font-size:44px !important;
+font-weight:800 !important;
+color:#1c1b4a !important;
+line-height:1.3 !important;
+}
+
+.about-title .pink{
+color:#ff6b81 !important;
+}
+
+.about-text{
+color:#6b6b84 !important;
+font-size:16px !important;
+line-height:1.8 !important;
+max-width:650px !important;
+}
+
+.discover-btn{
+display:inline-block !important;
+background:#ff6b81 !important;
+color:#fff !important;
+padding:14px 34px !important;
+border-radius:12px !important;
+text-decoration:none !important;
+font-weight:600 !important;
+margin-top:30px !important;
+}
